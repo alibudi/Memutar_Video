@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ali.memutar_video.MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtjudul"
+       android:text="Pemutar Video"
+       android:gravity="center_horizontal"
+       android:textStyle="bold"
+       android:textSize="20sp"
+       android:textColor="#00ff0f"/>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtjudulvideo"
+        android:layout_below="@id/txtjudul"/>
+</RelativeLayout>
